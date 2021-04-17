@@ -1,6 +1,6 @@
 ## Dexter.fake()
 
-Let's suppose you already tested a `function foo()` but you still need to test a new function called `bar()`, you really doesn't need all the work behind `foo()`. 
+Let's suppose you already tested a `function foo()` but you still need to test a new function called `bar()` that includes a call to foo(), you really doesn't need all the work behind `foo()`. 
 
 Dexter.fake will prevent any original functionality of a function, replacing it to a fake and non brainy call. It's like mocks and stubs.
 
